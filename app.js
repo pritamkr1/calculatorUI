@@ -1,7 +1,7 @@
 let inputScreen = document.querySelector('#input-value');
 let resultScreen = document.querySelector('#result');
 let screenValue = '';
-
+let darkMode = document.querySelector('.mode-dark');
 let buttons = document.querySelectorAll('.btn');
 
 //console.log(buttons);
@@ -28,3 +28,8 @@ for(item of buttons){
        }
     })
 }
+
+darkMode.addEventListener('click', function(e){
+    var element = document.querySelector('.Calculator');
+    element.classList.toggle("dark-mode");
+})
