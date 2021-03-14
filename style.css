@@ -63,15 +63,15 @@ padding-bottom: 20px;
   transition: 0.3s all;
 }
 .buttons-container tr td button:hover{
-    background-color: rgba(0, 0, 0, 0.007);
+    background-color: rgba(0, 0, 0, 0.589);
     border-radius: 15px;
-    color: #fff
+    color: rgb(255, 255, 255)
 }
 table{
     margin: 0 auto;
 }
 
 .dark-mode{
-    background-color: rgba(41, 40, 40, 0.692);
+    background-color: rgba(41, 40, 40, 0.835);
     color: white;
 }
